@@ -94,7 +94,29 @@ ul.nav {
 .navbar-header .logo {
     width: 305px;
 }
-
+.top-header {
+    height: 105px;
+}
+.top-header .row{
+    text-align: center;
+}
+.top-header .hotline {
+    font-size: 25px;
+    color: #727272;
+}
+.top-header .hotline strong {
+    font-weight: bold;
+}
+.top-header .logo-text {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+    font-size: 31px
+}
+.top-header .cart label, .top-header .cart i{
+    font-size: 13px;
+    color: #727272;
+}
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 /* Styles */
