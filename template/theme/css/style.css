@@ -262,6 +262,16 @@ ul.cart-item.dropdown-menu:after {
     background: #bb4145;
     color: #fff;
 }
+.slider {
+    width: 100%;
+    height: 550px;
+    background: #0a0807;
+    text-align: center;
+    border-bottom: 5px solid #99160d;
+}
+.slider img {
+    margin-top: 50px;
+}
 #main-content {
     margin-top: 50px;
 }
