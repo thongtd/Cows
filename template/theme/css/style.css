@@ -3,6 +3,10 @@
     font-family: UVNSangSongNang;
     src: url(../fonts/UVNSangSong_N.ttf) format('truetype');
 }
+@font-face {
+    font-family: "UTM Avo";
+    src: url(../fonts/utmavo.ttf) format('truetype');
+}
 body {
     background: #fff;
     color: #000000;
@@ -40,21 +44,19 @@ body {
     width: 1366px;
 }
 ul.nav {
-    margin-top: 77px;
-    margin-left: 50px;
+    margin-top: 22px;
 }
 .navbar-header {
     margin-left: 85px;
 }
 #myNavbar .nav > li > a {
-    color: #000000;
-    font-weight: 500;
-    font-style: italic;
+    color: #4b4b4b;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 14px;
     margin-right: 45px;
-    font-family: "Myriad Pro";
+    font-family: "UTM Avo";
     padding: 0;
+    font-weight: 600;
 }
 #myNavbar .nav > li:last-child > a {
     margin-right: 0;
@@ -107,6 +109,7 @@ ul.nav {
     font-size: 16px;
     color: #727272;
     line-height: 105px;
+    text-align: left;
 }
 .top-header .hotline strong {
     font-weight: bold;
@@ -140,6 +143,9 @@ ul.nav {
 }
 .top-header .btn-group.open .dropdown-toggle {
     box-shadow: none;
+}
+.cart-panel {
+    float: right;
 }
 ul.cart-item {
     list-style: none;
