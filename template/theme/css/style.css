@@ -259,6 +259,64 @@ ul.cart-item.dropdown-menu:after {
     background: #bb4145;
     color: #fff;
 }
+#main-content {
+    margin-top: 50px;
+}
+.accordion-toggle::after {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f105";
+    float: right;
+    margin-right: 10px;
+    color: #838d8f;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    margin-top: -5px;
+}
+.accordion-toggle.collapsed::after {
+    content: "\f107";
+    font: normal normal normal 14px/1 FontAwesome;
+    color: #838d8f;
+    font-size: 20px;
+}
+#sidebar-wrapper .panel {
+    border: 1px solid #d5d2ce;
+    padding: 20px 0 0;
+}
+#sidebar-wrapper .panel .cur-pointer {
+    font-size: 14px;
+    color: #000000;
+    font-family: "Myriad Pro";
+    text-transform: uppercase;
+    padding: 0 10px 0 20px;
+    font-weight: 500;
+}
+#sidebar-wrapper .panel .panel-heading {
+    border-bottom: 1px solid #eeeeee;
+    padding-left: 0;
+    padding-right: 0;
+}
+#sidebar-wrapper .panel .panel-heading:last-child {
+    border: none;
+}
+#sidebar-wrapper .panel .panel-body {
+    padding: 0 20px;
+    padding-top: 10px;
+    background: #d73d42;
+}
+#sidebar-wrapper .panel .panel-body .form-group .item{
+    margin-bottom: 10px;
+}
+#sidebar-wrapper .panel .panel-body .form-group .item a{
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: #fff;
+}
+#sidebar-wrapper .panel .panel-body .form-group .item a:hover {
+    border-bottom: 1px solid #d5d2ce;
+}
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 /* Styles */
