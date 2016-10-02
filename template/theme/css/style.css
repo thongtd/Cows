@@ -13,6 +13,7 @@ body {
     font-family: "Myriad Pro";
     margin: 0 auto;
     overflow-x: hidden;
+    background: url('../images/background.png');
 }
 .no-margin {
     margin: 0;
