@@ -7,6 +7,7 @@
     <meta name="viewport" width="device-width">
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
     <link href="css/reset.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
 </head>
@@ -20,25 +21,82 @@
             js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=665773710245538";
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script>
-    <div class="container">
-        <div class="top-header">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="hotline">
-                        Hotline: <strong>1900 6666</strong>
+    <div class="container-fluid header">
+        <div class="container">
+            <div class="top-header">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="hotline">
+                            Hotline: <strong>1900 6666</strong>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <h1 class="logo-text">
-                        <a href="">BEEF JAPAN</a>
-                    </h1>
-                </div>
-                <div class="col-md-4">
-                    <p class="cart">
-                        <label>Giỏ hàng của tôi</label>
-                        <i class="fa fa-sort-desc" aria-hidden="true"></i>
-                        <img src="images/icon-cart.jpg" />
-                    </p>
+                    <div class="col-md-4">
+                        <h1 class="logo-text">
+                            <a href="">BEEF JAPAN</a>
+                        </h1>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="btn-group cart-panel">
+                            <p class="cart dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <label>Giỏ hàng của tôi</label>
+                                <i class="fa fa-sort-desc" aria-hidden="true"></i>
+                                <img class="store" src="images/icon-cart.jpg" />
+                            </p>
+                            <ul class="dropdown-menu cart-item dropdown-menu-right">
+                                <li>
+                                    <p class="thumbs">
+                                        <img src="images/thumbs.jpg" />
+                                    </p>
+                                    <p>
+                                        <a href="#">Thịt bò VIP</a>
+                                        <label class="price">1.200.000 đ</label>
+                                    </p>
+                                    <a href="#" class="remove-item">
+                                        <label>&#9747;</label>
+                                    </a>
+                                </li>
+                                <li>
+                                    <p class="thumbs">
+                                        <img src="images/thumbs.jpg" />
+                                    </p>
+                                    <p>
+                                        <a href="#">Thịt bò VIP</a>
+                                        <label class="price">1.200.000 đ</label>
+                                    </p>
+                                    <a href="#" class="remove-item">
+                                        <label>&#9747;</label>
+                                    </a>
+                                </li>
+                                <li>
+                                    <p class="thumbs">
+                                        <img src="images/thumbs.jpg" />
+                                    </p>
+                                    <p>
+                                        <a href="#">Thịt bò VIP</a>
+                                        <label class="price">1.200.000 đ</label>
+                                    </p>
+                                    <a href="#" class="remove-item">
+                                        <label>&#9747;</label>
+                                    </a>
+                                </li>
+                                <li>
+                                    <p class="thumbs">
+                                        <img src="images/thumbs.jpg" />
+                                    </p>
+                                    <p>
+                                        <a href="#">Thịt bò VIP</a>
+                                        <label class="price">1.200.000 đ</label>
+                                    </p>
+                                    <a href="#" class="remove-item">
+                                        <label>&#9747;</label>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="btn bt-checkout">Mua Hàng</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -96,13 +154,11 @@
     <div class="container no-padding">
         <div id="main-content" class="container" style="height: 2000px">
             <div class="row">
-                
+
             </div>
         </div>
     </div>
-    <footer class="container-fluid">
-        
-    </footer>
+    <footer class="container-fluid"></footer>
     <script src="js/jquery-1.10.2.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
